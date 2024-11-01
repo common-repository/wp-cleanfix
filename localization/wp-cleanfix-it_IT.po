@@ -1,0 +1,873 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP CleanFix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-05 17:56+0100\n"
+"PO-Revision-Date: 2018-01-05 18:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: Giovambattista Fazioli <giovambattista.fazioli@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: plugin/Ajax/WPCleanFixAjax.php:95
+msgid "No table name"
+msgstr "Nessuna nome tabella"
+
+#: plugin/Ajax/WPCleanFixAjax.php:114
+msgid "Error while compacting"
+msgstr "Errore durante il compatimento"
+
+#: plugin/Http/Controllers/SettingsController.php:41
+msgid "Settings updated!"
+msgstr "Impostazioni aggiornate!"
+
+#: plugin/Http/Controllers/SettingsController.php:45
+msgid "Action not allowed!"
+msgstr "Azione non permessa!"
+
+#: plugin/Modules/Comments/CommentsModule.php:19
+#: resources/views/tools/comments.php:3
+msgid "Comments"
+msgstr "Commenti"
+
+#: plugin/Modules/Comments/SpamTest.php:16
+#, php-format
+msgid "You have %s comment marked as spam"
+msgid_plural "You have %s comments marked as spam"
+msgstr[0] "Tu hai %s commento segnato come spam"
+msgstr[1] "Tu hai %s commenti segnati come spam"
+
+#: plugin/Modules/Comments/SpamTest.php:27
+msgid "Fix: click here to delete your SPAM comments."
+msgstr "Ripara: premi qui per cancellare i tuoi commenti SPAM."
+
+#: plugin/Modules/Comments/SpamTest.php:41
+msgid "Spam"
+msgstr "Spam"
+
+#: plugin/Modules/Comments/SpamTest.php:46
+msgid "These comments are marked as spam."
+msgstr "Questi commenti sono marcati come SPAM."
+
+#: plugin/Modules/Comments/TrashTest.php:16
+#, php-format
+msgid "You have %s comment in your trash"
+msgid_plural "You have %s comments in your trash"
+msgstr[0] "Tu hai %s commento nel cestino"
+msgstr[1] "Tu hai %s commenti nel cestino"
+
+#: plugin/Modules/Comments/TrashTest.php:27
+msgid "Fix: click here to delete all comments in your trash."
+msgstr "Ripara: premi qui per cancellare definitivamente i commenti cestinati."
+
+#: plugin/Modules/Comments/TrashTest.php:41
+#: plugin/Modules/Posts/TrashTest.php:44
+msgid "Trash"
+msgstr "Cestino"
+
+#: plugin/Modules/Comments/TrashTest.php:46
+msgid "Comments trash"
+msgstr "Commenti cestinati"
+
+#: plugin/Modules/Comments/UnapprovedTest.php:16
+#, php-format
+msgid "You have %s comment unapproved"
+msgid_plural "You have %s comments unapproved"
+msgstr[0] "Tu hai %s commento non approvato"
+msgstr[1] "Tu hai %s commenti non approvati"
+
+#: plugin/Modules/Comments/UnapprovedTest.php:27
+msgid "Fix: click here to delete your unapproved comments."
+msgstr "Soluzione: premi qui per cancellare i commenti non approvati."
+
+#: plugin/Modules/Comments/UnapprovedTest.php:41 plugin/Tools/Comments.php:37
+msgid "Unapproved"
+msgstr "Non approvati"
+
+#: plugin/Modules/Comments/UnapprovedTest.php:46
+msgid "Comments unapproved"
+msgstr "Commenti non approvati"
+
+#: plugin/Modules/Database/DatabaseModule.php:24
+#: resources/views/settings/database.php:3
+msgid "Database"
+msgstr "Database"
+
+#: plugin/Modules/Database/DatabaseTablesTest.php:71
+#, php-format
+msgid "You have %s table to optimize. This action makes you gain %s"
+msgid_plural "You have %s tables to optimize. This action makes you gain %s"
+msgstr[0] ""
+"Tu hai %s tabella da ottimizzare. Questa azione ti farà risparmiare %s"
+msgstr[1] ""
+"Tu hai %s tabelle da ottimizzare. Questa azione ti farà risparmiare %s"
+
+#: plugin/Modules/Database/DatabaseTablesTest.php:83
+msgid "Fix: click here in order to optimize your table. This action is safe."
+msgstr ""
+"Soluzione: premi qui per ottimizzare le tabella. Questa azione è sicura."
+
+#: plugin/Modules/Database/DatabaseTablesTest.php:181
+msgid "Database tables"
+msgstr "Tabelle Database"
+
+#: plugin/Modules/Database/DatabaseTablesTest.php:186
+msgid "Here you can see the Database tables status."
+msgstr "Qui puoi visualizzare lo stato delle tua tabella del Database."
+
+#: plugin/Modules/Module.php:54
+msgid "Refresh all"
+msgstr "Aggiorna tutto"
+
+#: plugin/Modules/Module.php:59
+msgid "Fix all"
+msgstr "Ripara tutto"
+
+#: plugin/Modules/Options/ExpiredSiteTransientTest.php:16
+#, php-format
+msgid "You have %s expired site transient"
+msgid_plural "You have %s expired site transients"
+msgstr[0] "Tu hai %s valore temporaneo da eliminare."
+msgstr[1] "Tu hai %s valori temporanei da eliminare."
+
+#: plugin/Modules/Options/ExpiredSiteTransientTest.php:27
+msgid "Fix: click here to delete your expired site transients."
+msgstr "Soluzione: premi qui per eliminare i valore temporanei scaduti."
+
+#: plugin/Modules/Options/ExpiredSiteTransientTest.php:41
+msgid "Expired Site Transients"
+msgstr "Valori temporanei scaduti relativi al sito."
+
+#: plugin/Modules/Options/ExpiredSiteTransientTest.php:46
+msgid ""
+"Transients data are temporary values stored in the options database tables. "
+"When a transient expires you can safely remove it."
+msgstr ""
+"Questi sono dei valori temporanei memorizzati nel database. Quando uno di "
+"questi valori è scaduto, esso può essere eliminato con sicurezza, perché non "
+"piùutilizzato."
+
+#: plugin/Modules/Options/ExpiredTransientTest.php:16
+#, php-format
+msgid "You have %s expired transient"
+msgid_plural "You have %s expired transients"
+msgstr[0] "Tu hai %s valore temporaneo scaduto"
+msgstr[1] "Tu hai %s valori temporanei scaduti"
+
+#: plugin/Modules/Options/ExpiredTransientTest.php:27
+msgid "Fix: click here to delete your expired transients."
+msgstr "Soluzione: premi qui per eliminare i valori temporanei scaduti"
+
+#: plugin/Modules/Options/ExpiredTransientTest.php:41
+msgid "Expired Transients"
+msgstr "Valori temporanei scaduti"
+
+#: plugin/Modules/Options/ExpiredTransientTest.php:46
+msgid ""
+"Transients data are temporary values store in the options database table. "
+"When a transient is expired you can remove it in safe."
+msgstr ""
+"Questi sono dei valori temporanei memorizzati nel database. Quando uno di "
+"questi valori è scaduto, esso può essere eliminato con sicurezza, perché non "
+"piùutilizzato."
+
+#: plugin/Modules/Options/OptionsModule.php:18 plugin/Tools/Database.php:34
+#: resources/views/settings/options.php:3
+msgid "Options"
+msgstr "Impostazioni"
+
+#: plugin/Modules/Posts/AutodraftTest.php:18
+#, php-format
+msgid "You have %s post in autodraft"
+msgid_plural "You have %s posts in autodraft"
+msgstr[0] "Tu hai %s articolo in auto-salvataggio"
+msgstr[1] "Tu hai %s articoli in auto-salvataggio"
+
+#: plugin/Modules/Posts/AutodraftTest.php:29
+msgid "Fix: click here to delete the auto drafted posts. This action is safe."
+msgstr ""
+"Soluzione: primi qui per eliminare gli articoli in bozza. Questa azione è "
+"sicura."
+
+#: plugin/Modules/Posts/AutodraftTest.php:43
+msgid "Autodraft"
+msgstr "Auto-Salvataggio"
+
+#: plugin/Modules/Posts/AutodraftTest.php:48
+msgid ""
+"Post in Auto Draft. WordPress saves an Auto Draft in the database every n "
+"seconds. The Auto draft is different from draft, however you can safely "
+"remove it to gain more space in the database."
+msgstr ""
+"Gli articoli in auto-salvataggio sono memorizzati nel database per un certo "
+"tempo. Questi articoli sono differenti dalle Bozze e puoi eliminarli con "
+"sicurezza risparmiando spazio sul Database."
+
+#: plugin/Modules/Posts/OrphanAttachmentsTest.php:17
+#, php-format
+msgid "You have %s orphan attachment"
+msgid_plural "You have %s orphan attachments"
+msgstr[0] "Tu hai %s allegato orfano"
+msgstr[1] "Tu hai %s allegati orfani"
+
+#: plugin/Modules/Posts/OrphanAttachmentsTest.php:28
+msgid "Fix: click here to remove all invalid post parents."
+msgstr "Soluzione: premi qui per rimuovere tutti gli articoli senza un padre."
+
+#: plugin/Modules/Posts/OrphanAttachmentsTest.php:43
+msgid "Orphan attachments"
+msgstr "Allegati orfani"
+
+#: plugin/Modules/Posts/OrphanAttachmentsTest.php:48
+msgid ""
+"An orphan attachment is a custom post type without a valid parent post ID "
+"assigned (it is missing). An attachment usually has a null parent post or a "
+"post ID"
+msgstr ""
+"In allegato orfano un articolo personalizzato senza un padre valido "
+"assegnato. Un allegato possiede di solito un padre NULLO o con un valore."
+
+#: plugin/Modules/Posts/OrphanPostMetaTest.php:17
+#, php-format
+msgid "You have %s orphan post meta"
+msgid_plural "You have %s orphan post meta"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Posts/OrphanPostMetaTest.php:28
+#: plugin/Modules/Posts/TemporaryTest.php:28
+#: plugin/Modules/Taxonomies/OrphanPostCategoriesTest.php:26
+#: plugin/Modules/Taxonomies/OrphanPostTagsTest.php:26
+#: plugin/Modules/Users/OrphanUserMetaTest.php:27
+msgid "Fix: click here to safely and permanently delete them."
+msgstr ""
+
+#: plugin/Modules/Posts/OrphanPostMetaTest.php:43
+msgid "Orphan Post Meta"
+msgstr ""
+
+#: plugin/Modules/Posts/OrphanPostMetaTest.php:48
+msgid ""
+"Post Meta data not assigned to a post. These are the extra properties for a "
+"standard post type (post, page, custom post type, etc...). Sometimes, post "
+"meta records may exist without being associated with post: in this case, "
+"post meta are orphan and can be deleted."
+msgstr ""
+
+#: plugin/Modules/Posts/OrphanPostTypesTest.php:17
+#, php-format
+msgid "You have %s orphan post type"
+msgid_plural "You have %s orphan post types"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Posts/OrphanPostTypesTest.php:28
+msgid "Warning! Are you sure to delete the orphan posts permanently?"
+msgstr ""
+
+#: plugin/Modules/Posts/OrphanPostTypesTest.php:29
+msgid "Fix: click here to delete orphan posts."
+msgstr ""
+
+#: plugin/Modules/Posts/OrphanPostTypesTest.php:44
+msgid "Orphan Post Types"
+msgstr ""
+
+#: plugin/Modules/Posts/OrphanPostTypesTest.php:49
+msgid ""
+"Some deactivated or deleted plugins could have left old post types in your "
+"database posts table. If you are almost sure that plugin does not exist "
+"anymore, you can delete these rows."
+msgstr ""
+
+#: plugin/Modules/Posts/PostsModule.php:24
+msgid "Posts, Pages and Custom Post Types"
+msgstr ""
+
+#: plugin/Modules/Posts/PostsWithoutUserTest.php:17
+#, php-format
+msgid "You have %s post not correctly assigned to any author"
+msgid_plural "You have %s posts not correctly assigned to any author"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Posts/PostsWithoutUserTest.php:30
+msgid "Fix: click here to repair posts without authors."
+msgstr ""
+
+#: plugin/Modules/Posts/PostsWithoutUserTest.php:41
+msgid "Choose a new user..."
+msgstr ""
+
+#: plugin/Modules/Posts/PostsWithoutUserTest.php:54
+msgid "Warning! You must select a User before fix this issue."
+msgstr ""
+
+#: plugin/Modules/Posts/PostsWithoutUserTest.php:98
+msgid "Posts without author"
+msgstr ""
+
+#: plugin/Modules/Posts/PostsWithoutUserTest.php:103
+msgid "Posts without author."
+msgstr ""
+
+#: plugin/Modules/Posts/RevisionsTest.php:17
+#, php-format
+msgid "You have %s post in revision"
+msgid_plural "You have %s posts in revision"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Posts/RevisionsTest.php:28
+msgid "Fix: click here to delete your post revisions."
+msgstr ""
+
+#: plugin/Modules/Posts/RevisionsTest.php:43
+msgid "Revisions"
+msgstr "Revisioni"
+
+#: plugin/Modules/Posts/RevisionsTest.php:48
+msgid ""
+"Post in revision. WordPress auto-generates post revisions each time you save "
+"a newer version of the post. If you do not need them, you can permanently "
+"delete them to gain space in the database."
+msgstr ""
+
+#: plugin/Modules/Posts/TemporaryTest.php:17
+#, php-format
+msgid "You have %s temporary post meta"
+msgid_plural "You have %s temporary posts meta"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Posts/TemporaryTest.php:43
+msgid "Temporary"
+msgstr "Temporanei"
+
+#: plugin/Modules/Posts/TemporaryTest.php:48
+msgid ""
+"These records are stored by WordPress as temporary data. If you like you can "
+"safely delete them."
+msgstr ""
+
+#: plugin/Modules/Posts/TrashTest.php:17
+#, php-format
+msgid "You have %s post in trash"
+msgid_plural "You have %s posts in trash"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Posts/TrashTest.php:28
+msgid "Warning! Are you sure to delete your trashed posts permanently?"
+msgstr ""
+
+#: plugin/Modules/Posts/TrashTest.php:29
+msgid "Fix: click here to delete your posts in trash."
+msgstr ""
+
+#: plugin/Modules/Posts/TrashTest.php:49
+msgid "Post in trash."
+msgstr "Articoli nel cestino."
+
+#: plugin/Modules/Taxonomies/ConsistentTermsRelationshipsTest.php:16
+#, php-format
+msgid "You have %s row broken. This object ID or term taxonomy ID is not valid"
+msgid_plural ""
+"You have %s broken rows. These object ID or terms taxonomy ID are not valid"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsRelationshipsTest.php:27
+msgid "Fix: click here to repair terms relationships."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsRelationshipsTest.php:41
+msgid "Consistent Terms/Relationships"
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsRelationshipsTest.php:46
+msgid "Check for term_relationships table and for missing taxonomy IDs."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTaxonomiesTest.php:16
+#, php-format
+msgid ""
+"You have %s orphan taxonomy. This is taxonomy have a not valid term id linked"
+msgid_plural ""
+"You have %s orphan taxonomies. These taxonomies have not a valid term id "
+"linked"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTaxonomiesTest.php:24
+msgid "Fix: click here to repair terms and taxonomies."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTaxonomiesTest.php:38
+msgid "Consistent Terms/Taxonomies"
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTaxonomiesTest.php:43
+msgid "These are orphan Taxonomies which are missing a valid linked term."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTest.php:16
+#, php-format
+msgid "You have %s orphan term. This term does not extis as taxonomy"
+msgid_plural ""
+"You have %s orphan terms. These terms does not exists as taxonomy"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTest.php:24
+msgid "Fix: click here to repair terms"
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTest.php:38
+msgid "Consistent Terms"
+msgstr ""
+
+#: plugin/Modules/Taxonomies/ConsistentTermsTest.php:43
+msgid "These are orphan Terms and they don't exist in the taxonomy table."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/OrphanPostCategoriesTest.php:16
+#, php-format
+msgid "You have %s orphan post category"
+msgid_plural "You have %s orphan post categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Taxonomies/OrphanPostCategoriesTest.php:40
+msgid "Orphan Post Categories"
+msgstr ""
+
+#: plugin/Modules/Taxonomies/OrphanPostCategoriesTest.php:45
+msgid "Check for unused post categories."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/OrphanPostTagsTest.php:16
+#, php-format
+msgid "You have %s orphan tag"
+msgid_plural "You have %s orphan tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Taxonomies/OrphanPostTagsTest.php:40
+msgid "Orphan Post Tags"
+msgstr ""
+
+#: plugin/Modules/Taxonomies/OrphanPostTagsTest.php:45
+msgid "Check for unused post tags."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/OrphanTermsTest.php:16
+#, php-format
+msgid "You have %s orphan generic term"
+msgid_plural "You have %s orphan generic terms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Taxonomies/OrphanTermsTest.php:27
+msgid "Fix: click here to delete all orphan terms."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/OrphanTermsTest.php:41
+msgid "Orphan Terms"
+msgstr "Termini orfani"
+
+#: plugin/Modules/Taxonomies/OrphanTermsTest.php:46
+msgid "Check for unused generic terms."
+msgstr ""
+
+#: plugin/Modules/Taxonomies/TaxonomiesModule.php:22
+msgid "Terms and Taxonomies"
+msgstr "Termini e tassonomie"
+
+#: plugin/Modules/Test.php:122
+msgid "ago"
+msgstr "fa"
+
+#: plugin/Modules/Users/OrphanUserMetaTest.php:16
+#, php-format
+msgid "You have %s orphan user meta data"
+msgid_plural "You have %s orphan user meta data"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Modules/Users/OrphanUserMetaTest.php:41
+msgid "Orphan user meta"
+msgstr ""
+
+#: plugin/Modules/Users/OrphanUserMetaTest.php:46
+msgid ""
+"User Meta data not correctly assigned to a user. These are extra properties "
+"assigned to each user. It might be the case that some records are not "
+"assigned to a specific user."
+msgstr ""
+
+#: plugin/Modules/Users/UsersModule.php:17
+msgid "Users"
+msgstr "Utenti"
+
+#: plugin/Providers/WPCleanFixModulesProviders.php:44
+msgid "Clean & Fix"
+msgstr "Pulisci & Correggi"
+
+#: plugin/Providers/WPCleanFixModulesProviders.php:45
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: plugin/Tools/Comments.php:36 resources/views/tools/comments.php:30
+#: resources/views/tools/posts.php:18 resources/views/tools/posts.php:31
+msgid "All"
+msgstr "Tutti"
+
+#: plugin/Tools/Comments.php:38
+msgid "Approved"
+msgstr "Approvato"
+
+#: plugin/Tools/Database.php:33
+msgid "Comment Meta"
+msgstr ""
+
+#: plugin/Tools/Database.php:35 resources/views/tools/postmeta.php:3
+msgid "Post Meta"
+msgstr ""
+
+#: plugin/Tools/Database.php:36
+msgid "User Meta"
+msgstr ""
+
+#: resources/views/database/index.php:11
+msgid "Engine"
+msgstr ""
+
+#: resources/views/database/index.php:12
+msgid "Name"
+msgstr "Nome"
+
+#: resources/views/database/index.php:13
+#: resources/views/tools/database-tables.php:7
+msgid "Auto Increment"
+msgstr ""
+
+#: resources/views/database/index.php:14
+msgid "Gain"
+msgstr "Risparmio"
+
+#: resources/views/database/index.php:42
+msgid "Total Gain"
+msgstr "Risparmio totale"
+
+#: resources/views/settings/database.php:14
+msgid "Ignore INNODB tables"
+msgstr "Ignora le tabelle di tipo INNODB"
+
+#: resources/views/settings/database.php:19
+msgid ""
+"The InnoDB tables could not be optimized on some MySQL version / Server."
+msgstr ""
+
+#: resources/views/settings/database.php:26
+msgid "Reset AUTO_INCREMENT"
+msgstr ""
+
+#: resources/views/settings/database.php:31
+msgid ""
+"Once the optimization process ends, you are able the reset the "
+"AUTO_INCREMENT index function of the tables."
+msgstr ""
+
+#: resources/views/settings/index.php:5
+msgid "WP CleanFix Settings"
+msgstr "Impostazioni WP CleanFix"
+
+#: resources/views/settings/options.php:12
+msgid "Expiry date"
+msgstr "Data di scadenza"
+
+#: resources/views/settings/options.php:15
+msgid "Today"
+msgstr "Oggi"
+
+#: resources/views/settings/options.php:16
+msgid "Daily"
+msgstr "Giornaliero"
+
+#: resources/views/settings/options.php:17
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: resources/views/settings/options.php:26
+msgid "Safe mode"
+msgstr "Modalità sicura"
+
+#: resources/views/settings/options.php:31
+msgid ""
+"We will use the WordPress function <code>get_transient()</code> to remove "
+"the expired transients."
+msgstr ""
+"Verrà utilizzata la funzione WordPress <code>get_transient()</code> per "
+"eliminare i valori temporanei scaduti."
+
+#: resources/views/tools/comment-feedback-replace.php:6
+#: resources/views/tools/comment-feedback.php:6
+#: resources/views/tools/post-feedback-replace.php:6
+#: resources/views/tools/post-feedback.php:6
+#: resources/views/tools/postmeta-feedback-replace.php:6
+#: resources/views/tools/postmeta-feedback.php:6
+msgid "No matching strings found!"
+msgstr "Nessuna corrispondenza trovata!"
+
+#: resources/views/tools/comment-feedback-replace.php:14
+#: resources/views/tools/comment-feedback.php:14
+#, php-format
+msgid "Searched in <strong>%s</strong> comment only"
+msgid_plural "Searched in <strong>%s</strong> comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/comment-feedback-replace.php:15
+#: resources/views/tools/post-feedback-replace.php:15
+#: resources/views/tools/postmeta-feedback-replace.php:15
+#, php-format
+msgid "Replaced <strong>%s</strong> string only"
+msgid_plural "Replaced <strong>%s</strong> strings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/comment-feedback-replace.php:16
+#: resources/views/tools/comment-feedback.php:16
+#, php-format
+msgid "in <strong>%s</strong> comment only"
+msgid_plural "in <strong>%s</strong> comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/comment-feedback-replace.php:17
+#: resources/views/tools/post-feedback-replace.php:17
+#: resources/views/tools/postmeta-feedback-replace.php:16
+msgid "Ok"
+msgstr "Ok"
+
+#: resources/views/tools/comment-feedback.php:15
+#: resources/views/tools/post-feedback.php:15
+#, php-format
+msgid "only the <strong>%s</strong> string will be replaced"
+msgid_plural "the <strong>%s</strong> strings will be replaced"
+msgstr[0] "solo  <strong>%s</strong> stringa sarà sostituita"
+msgstr[1] "saranno sostituite <strong>%s</strong> stringhe"
+
+#: resources/views/tools/comment-feedback.php:17
+#: resources/views/tools/post-feedback.php:17
+#: resources/views/tools/postmeta-feedback.php:16
+msgid "Are you sure to replace the strings? This operation is irreversible!"
+msgstr ""
+"Sei sicuro di voler sostituire queste stringhe? Questa operazione è "
+"irreversibile!"
+
+#: resources/views/tools/comment-feedback.php:17
+#: resources/views/tools/post-feedback.php:17
+#: resources/views/tools/postmeta-feedback.php:16
+msgid "Continue ?"
+msgstr "Continuo ?"
+
+#: resources/views/tools/comment-feedback.php:18
+#: resources/views/tools/post-feedback.php:18
+#: resources/views/tools/postmeta-feedback.php:17
+msgid "Cancel"
+msgstr "Annulla"
+
+#: resources/views/tools/comments.php:7 resources/views/tools/comments.php:63
+#: resources/views/tools/postmeta.php:7 resources/views/tools/postmeta.php:49
+#: resources/views/tools/posts.php:7 resources/views/tools/posts.php:64
+msgid "Find & Replace"
+msgstr "Trova & Sostituisci"
+
+#: resources/views/tools/comments.php:10
+msgid ""
+"This tool will perform a search for a text string within the "
+"<strong>comments content</strong> and will replace it with another text. "
+"<strong>Be careful because this operation is irreversible.</strong>"
+msgstr ""
+
+#: resources/views/tools/comments.php:15
+msgid "Comments approved"
+msgstr "Commento approvato"
+
+#: resources/views/tools/comments.php:27
+msgid "Comment type"
+msgstr "Tipo di commento"
+
+#: resources/views/tools/comments.php:39 resources/views/tools/postmeta.php:25
+#: resources/views/tools/posts.php:40
+msgid "The fields below are <strong>case sensitive</strong>."
+msgstr ""
+
+#: resources/views/tools/comments.php:44 resources/views/tools/postmeta.php:30
+#: resources/views/tools/posts.php:45
+msgid "Find"
+msgstr "Trova"
+
+#: resources/views/tools/comments.php:52 resources/views/tools/postmeta.php:38
+#: resources/views/tools/posts.php:53
+msgid "Replace"
+msgstr "Sostituisci"
+
+#: resources/views/tools/comments.php:60 resources/views/tools/postmeta.php:46
+#: resources/views/tools/posts.php:61
+msgid "Clear Fields"
+msgstr "Pulisci campi"
+
+#: resources/views/tools/database-tables.php:6
+msgid "Table"
+msgstr "Tabella"
+
+#: resources/views/tools/database-tables.php:8
+msgid "Action"
+msgstr "Azione"
+
+#: resources/views/tools/database-tables.php:28
+msgid "Compact"
+msgstr "Compatta"
+
+#: resources/views/tools/database.php:3 resources/views/tools/database.php:7
+msgid "Compact index"
+msgstr "Compatta indice"
+
+#: resources/views/tools/database.php:10
+msgid ""
+"This tool will perform a datbase table index compact on the following tables."
+msgstr ""
+
+#: resources/views/tools/database.php:17
+msgid "Make a backup copy before compact"
+msgstr ""
+
+#: resources/views/tools/index.php:5
+msgid "WP CleanFix Tools"
+msgstr "Strumento WP CleanFix"
+
+#: resources/views/tools/post-feedback-replace.php:14
+#: resources/views/tools/post-feedback.php:14
+#, php-format
+msgid "Searched in <strong>%s</strong> post only"
+msgid_plural "Searched in <strong>%s</strong> posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/post-feedback-replace.php:16
+#: resources/views/tools/post-feedback.php:16
+#, php-format
+msgid "in <strong>%s</strong> post only"
+msgid_plural "in <strong>%s</strong> posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/postmeta-feedback-replace.php:14
+#: resources/views/tools/postmeta-feedback.php:14
+#, php-format
+msgid "Searched in <strong>%s</strong> postmeta only"
+msgid_plural "Searched in <strong>%s</strong> postmeta"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/postmeta-feedback.php:15
+#, php-format
+msgid "only <strong>%s</strong> matched will be replaced"
+msgid_plural "the <strong>%s</strong> matches will be replaced"
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/views/tools/postmeta.php:10
+msgid ""
+"This tool will perform a search for a text string within the "
+"<strong>postmeta content</strong> and will replace it with another text. "
+"<strong>Be careful because this operation is irreversible.</strong>"
+msgstr ""
+
+#: resources/views/tools/postmeta.php:15
+msgid "Column"
+msgstr "Colonne"
+
+#: resources/views/tools/posts.php:3
+msgid "Posts"
+msgstr "Articoli"
+
+#: resources/views/tools/posts.php:10
+msgid ""
+"This tool will perform a search for a text string within the <strong>posts "
+"content</strong> and will replace it with another text. <strong>Be careful "
+"because this operation is irreversible.</strong>"
+msgstr ""
+
+#: resources/views/tools/posts.php:15
+msgid "Post Type"
+msgstr "Tipo articolo"
+
+#: resources/views/tools/posts.php:28
+msgid "Post Status"
+msgstr "Stato articolo"
+
+#~ msgid "You have %s comment marked as spam."
+#~ msgid_plural "You have %s comments marked as spam."
+#~ msgstr[0] "Tu hai %s commento segnato come spam."
+#~ msgstr[1] "Tu hai %s commenti segnati come spam."
+
+#~ msgid "You have %s comment in your trash."
+#~ msgid_plural "You have %s comments in your trash."
+#~ msgstr[0] "Tu hai %s commento nel cestino."
+#~ msgstr[1] "Tu hai %s commenti cestinati."
+
+#~ msgid "You can localize me"
+#~ msgstr "Mi puoi localizzare"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Placeholders"
+#~ msgstr "Segnaposti"
+
+#~ msgid "Environment"
+#~ msgstr "Ambienti"
+
+#~ msgid "Places"
+#~ msgstr "Posti"
+
+#~ msgid "Status"
+#~ msgstr "Stato"
+
+#~ msgid "Publish"
+#~ msgstr "Pubblica"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "Restore"
+#~ msgstr "Repristina"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Icon"
+#~ msgstr "Icona"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Sposta nel cestino"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Update"
+#~ msgstr "Aggiorna"
